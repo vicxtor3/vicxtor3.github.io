@@ -1,2 +1,3 @@
 name: Víctor Lucía Gómez
 markdown: LJB proyect.
+permalink: /blog/:year/:month/:day/:title
