@@ -1,1 +1,24 @@
 
+---
+layout: default
+title: VIVISTL
+---
+<div class="blurb">
+	<h1>VisionVIVIROBOT</h1>
+	<div id="stl_cont" style="width:5000px;height:5000px;margin:0 auto;"></div>
+	<script src="stl_viewer.min.js"></script>
+	<script>
+		var stl_viewer=new StlViewer
+            (
+                document.getElementById("stl_cont"),
+                {
+                    models:
+                    [
+                        {filename:"ankle_left_back.stl"}
+                    ]
+                }
+            );
+	</script>
+	<div id="stl_cont"></div>
+
+</div>
