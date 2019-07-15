@@ -32,6 +32,9 @@ The project is divided up into different parts:
     4.2) 2D Graphic Design
       4.2.1) Krita
       4.2.2) Inkscape
+    4.3) CAD
+      4.3.1) Openscad
+      4.3.2) FreeCAD
 5) SW: AudioEdition
     5.1) MuseScore
     5.2) Audacity
