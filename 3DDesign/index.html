@@ -1,8 +1,18 @@
 <html>
 <body>
+<nav>
+	    		<ul>
+	        		<li><a href="/3DDesign/"></a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+</nav>
+
 <script src="stl_viewer.min.js"></script>
 <div id="stl_cont"></div>
 <script>
+
 	var stl_viewer=new StlViewer(document.getElementById("stl_cont"), { models: [ {id:0, filename:"mystl.stl"} ] });
 </script>
 </body>
